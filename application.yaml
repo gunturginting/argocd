@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: test-argocd-app
-  namespace: argocd-deployment
+  namespace: argocd
 spec:
   project: default
 
